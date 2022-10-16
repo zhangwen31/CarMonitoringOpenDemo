@@ -1,0 +1,361 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - AMap3DMap (6.9.0):
+    - AMapFoundation (~> 1.5)
+  - AMapFoundation (1.8.0)
+  - AMapLocation (2.6.2):
+    - AMapFoundation (~> 1.4)
+  - AMapNavi (6.9.1):
+    - AMap3DMap (~> 6.7)
+    - AMapFoundation (~> 1.5)
+  - AMapSearch (6.9.0):
+    - AMapFoundation (~> 1.4)
+  - AWHBBasicBusiness (0.0.5):
+    - AFNetworking
+    - AWHBNetworkRequest
+    - AWHBoneResources
+    - AWHBoneRuntime
+    - IQKeyboardManager
+    - JJException
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - SDWebImage
+    - YYImage
+    - YYModel
+    - YYWebImage
+  - AWHBGaudeMapBus (0.0.2):
+    - AFNetworking
+    - AMap3DMap (= 6.9.0)
+    - AMapLocation (= 2.6.2)
+    - AMapNavi (= 6.9.1)
+    - AMapSearch (= 6.9.0)
+    - AWHBBasicBusiness
+    - AWHBNetworkRequest
+    - AWHBoneResources
+    - AWHBoneRouter
+    - AWHBoneRuntime
+    - AWHBPublicBusiness
+    - Charts
+    - IQKeyboardManager
+    - JJException
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
+    - YYImage
+    - YYWebImage
+  - AWHBNetworkRequest (0.0.7):
+    - AFNetworking
+    - AWHBoneResources
+    - AWHBoneRuntime
+    - CocoaAsyncSocket
+    - Masonry
+    - MBProgressHUD
+    - SDWebImage
+  - AWHBoneResources (0.0.9)
+  - AWHBoneRouter (0.0.5)
+  - AWHBoneRuntime (0.0.8)
+  - AWHBPublicBusiness (0.0.4):
+    - AFNetworking
+    - AWHBBasicBusiness
+    - AWHBNetworkRequest
+    - AWHBoneResources
+    - AWHBoneRouter
+    - AWHBoneRuntime
+    - Charts
+    - IQKeyboardManager
+    - JJException
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - YYImage
+    - YYWebImage
+  - AWHIJKPlayer (0.0.2)
+  - AWHMonitoringModule (0.0.1):
+    - AFNetworking
+    - AMap3DMap (= 6.9.0)
+    - AMapLocation (= 2.6.2)
+    - AMapNavi (= 6.9.1)
+    - AMapSearch (= 6.9.0)
+    - AWHBBasicBusiness
+    - AWHBGaudeMapBus
+    - AWHBNetworkRequest
+    - AWHBoneResources
+    - AWHBoneRouter
+    - AWHBoneRuntime
+    - AWHBPublicBusiness
+    - AWHIJKPlayer
+    - AWHOilSwift
+    - AWHReportModule
+    - AWHSensorStatistics
+    - AWHVideoPlayer
+    - Charts
+    - CocoaAsyncSocket
+    - FQPhotoAlbum
+    - JJException
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
+    - SAMKeychain
+    - YYImage
+    - YYWebImage
+  - AWHOilSwift (0.0.1):
+    - Charts
+  - AWHReportModule (0.0.3):
+    - AFNetworking
+    - AWHBBasicBusiness
+    - AWHBNetworkRequest
+    - AWHBoneResources
+    - AWHBoneRouter
+    - AWHBoneRuntime
+    - AWHBPublicBusiness
+    - AWHIJKPlayer
+    - Charts
+    - FQPhotoAlbum
+    - IQKeyboardManager
+    - JJException
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
+    - YYImage
+    - YYWebImage
+  - AWHSensorStatistics (0.0.2):
+    - AFNetworking
+    - AWHBBasicBusiness
+    - AWHBNetworkRequest
+    - AWHBoneResources
+    - AWHBoneRouter
+    - AWHBoneRuntime
+    - AWHBPublicBusiness
+    - AWHOilSwift
+    - Charts
+    - IQKeyboardManager
+    - JJException
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
+    - YYImage
+    - YYWebImage
+  - AWHVideoPlayer (0.0.2):
+    - AFNetworking
+    - AMap3DMap (= 6.9.0)
+    - AMapLocation (= 2.6.2)
+    - AMapNavi (= 6.9.1)
+    - AMapSearch (= 6.9.0)
+    - AWHBBasicBusiness
+    - AWHBGaudeMapBus
+    - AWHBNetworkRequest
+    - AWHBoneResources
+    - AWHBoneRouter
+    - AWHBoneRuntime
+    - AWHBPublicBusiness
+    - AWHIJKPlayer
+    - AWHReportModule
+    - Charts
+    - CocoaAsyncSocket
+    - FQPhotoAlbum
+    - JJException
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
+    - YYImage
+    - YYWebImage
+  - Charts (4.1.0):
+    - Charts/Core (= 4.1.0)
+  - Charts/Core (4.1.0):
+    - SwiftAlgorithms (~> 1.0)
+  - CocoaAsyncSocket (7.6.5)
+  - FQPhotoAlbum (1.0)
+  - IQKeyboardManager (6.5.10)
+  - JJException (0.2.5):
+    - JJException/All (= 0.2.5)
+  - JJException/All (0.2.5):
+    - JJException/ARC
+    - JJException/DeallocBlock
+    - JJException/Main
+    - JJException/MRC
+    - JJException/Swizzle
+  - JJException/ARC (0.2.5):
+    - JJException/DeallocBlock
+    - JJException/Main
+    - JJException/Swizzle
+  - JJException/DeallocBlock (0.2.5)
+  - JJException/Main (0.2.5)
+  - JJException/MRC (0.2.5):
+    - JJException/Main
+    - JJException/Swizzle
+  - JJException/Swizzle (0.2.5)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.1.0)
+  - MJExtension (3.1.2)
+  - MJRefresh (3.2.0)
+  - SAMKeychain (1.5.3)
+  - SDWebImage (5.13.3):
+    - SDWebImage/Core (= 5.13.3)
+  - SDWebImage/Core (5.13.3)
+  - SwiftAlgorithms (1.0.0)
+  - UMCommon (7.3.5):
+    - UMDevice
+  - UMDevice (2.0.5)
+  - UMShare/Core (6.10.3):
+    - UMCommon
+  - UMShare/Social/ReducedWeChat (6.10.3):
+    - UMCommon
+    - UMShare/Core
+  - UMShare/Social/WeChat (6.10.3):
+    - UMCommon
+    - UMShare/Core
+    - UMShare/Social/ReducedWeChat
+  - UMShare/UI (6.10.3):
+    - UMCommon
+    - UMShare/Core
+  - YYCache (1.0.4)
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
+  - YYModel (1.0.4)
+  - YYWebImage (1.0.5):
+    - YYCache
+    - YYImage
+
+DEPENDENCIES:
+  - AFNetworking (= 4.0.1)
+  - AMap3DMap (= 6.9.0)
+  - AMapLocation (= 2.6.2)
+  - AMapNavi (= 6.9.1)
+  - AMapSearch (= 6.9.0)
+  - AWHBBasicBusiness (= 0.0.5)
+  - AWHBGaudeMapBus (= 0.0.2)
+  - AWHBNetworkRequest (= 0.0.7)
+  - AWHBoneResources (= 0.0.9)
+  - AWHBoneRouter (= 0.0.5)
+  - AWHBoneRuntime (= 0.0.8)
+  - AWHBPublicBusiness (= 0.0.4)
+  - AWHIJKPlayer (= 0.0.2)
+  - AWHMonitoringModule (= 0.0.1)
+  - AWHOilSwift (= 0.0.1)
+  - AWHReportModule (= 0.0.3)
+  - AWHSensorStatistics (= 0.0.2)
+  - AWHVideoPlayer (= 0.0.2)
+  - Charts (= 4.1.0)
+  - CocoaAsyncSocket (= 7.6.5)
+  - FQPhotoAlbum (= 1.0)
+  - IQKeyboardManager (~> 6.5.10)
+  - JJException (= 0.2.5)
+  - Masonry (= 1.1.0)
+  - MBProgressHUD (= 1.1.0)
+  - MJExtension (= 3.1.2)
+  - MJRefresh (= 3.2.0)
+  - SAMKeychain (= 1.5.3)
+  - SDWebImage (= 5.13.3)
+  - UMCommon (= 7.3.5)
+  - UMDevice (= 2.0.5)
+  - UMShare/Social/WeChat (= 6.10.3)
+  - UMShare/UI (= 6.10.3)
+  - YYImage (= 1.0.4)
+  - YYModel (= 1.0.4)
+  - YYWebImage (= 1.0.5)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - AMap3DMap
+    - AMapFoundation
+    - AMapLocation
+    - AMapNavi
+    - AMapSearch
+    - AWHBBasicBusiness
+    - AWHBGaudeMapBus
+    - AWHBNetworkRequest
+    - AWHBoneResources
+    - AWHBoneRouter
+    - AWHBoneRuntime
+    - AWHBPublicBusiness
+    - AWHIJKPlayer
+    - AWHMonitoringModule
+    - AWHOilSwift
+    - AWHReportModule
+    - AWHSensorStatistics
+    - AWHVideoPlayer
+    - Charts
+    - CocoaAsyncSocket
+    - FQPhotoAlbum
+    - IQKeyboardManager
+    - JJException
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
+    - SAMKeychain
+    - SDWebImage
+    - SwiftAlgorithms
+    - UMCommon
+    - UMDevice
+    - UMShare
+    - YYCache
+    - YYImage
+    - YYModel
+    - YYWebImage
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  AMap3DMap: c80b264f08f179d9b0949b84c65fc1a51dec9d6f
+  AMapFoundation: f48153f724114b58da9b01875ab88a1f6856e3db
+  AMapLocation: 89a7e4eb6040d32ba73c77a4966ecc66e46aa7c3
+  AMapNavi: 7e7c6ab0b9ad45ddba19297901d63236ff4be710
+  AMapSearch: af02822537e55b85a4752e9df5c19e4b9da82031
+  AWHBBasicBusiness: 39432bd2dc3bcaaf2bb43d84f6304abaa0498dbb
+  AWHBGaudeMapBus: ffe04d294e6610ccc516ecff637f2829f831d51b
+  AWHBNetworkRequest: 0827fb74ba722df639071e9f7714a29eafd4c44b
+  AWHBoneResources: eca72b330c3d69f32488acc950df04de6d39edf7
+  AWHBoneRouter: e8e4a53ee7b422c24b13ee7d7013a2639e31189c
+  AWHBoneRuntime: 79fdb4bb6afc7e7b187331bc143a49517a5a9a2f
+  AWHBPublicBusiness: d0b873ced873e3c4cc5c2a27051560fe5e6d3723
+  AWHIJKPlayer: 33fc402dc11408d5739b7354387d4ece374d011f
+  AWHMonitoringModule: 5e98867819086572f68154c296331434188fc856
+  AWHOilSwift: 7e8ee777ef79604c943ec121bcb16e842aef0df5
+  AWHReportModule: 2be4aedde3f25135f62ae2f87f01c24b7d77a1ac
+  AWHSensorStatistics: 9d09baa49ec681abd04b81bf920635cff70edddd
+  AWHVideoPlayer: 8ac1544493f1547665a5ebb389dd1255b691a059
+  Charts: 354f86803d11d9c35de280587fef50d1af063978
+  CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
+  FQPhotoAlbum: 14d41f5feeddb605be63756334be066cda4840b3
+  IQKeyboardManager: 45a1fa55c1a5b02c61ac0fd7fd5b62bb4ad20d97
+  JJException: 643c594b0fb3427c5cd1cf09e2483829ce550a28
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MJExtension: 81e8e411ced318561dd09334b0c83d8227cef79c
+  MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
+  SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
+  SDWebImage: af5bbffef2cde09f148d826f9733dcde1a9414cd
+  SwiftAlgorithms: 38dda4731d19027fdeee1125f973111bf3386b53
+  UMCommon: ab4d875ddefe1b06c60b577e4a58bc4d433ee067
+  UMDevice: c13bbb2e8ca6c67d1e23e03162553e3ec5a8b5b0
+  UMShare: a3f9cb2d3ece67edd2c58331bd89bfffb289782b
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+  YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
+
+PODFILE CHECKSUM: fcd5a9948f88468f5c203fd10515c8a339771075
+
+COCOAPODS: 1.11.3

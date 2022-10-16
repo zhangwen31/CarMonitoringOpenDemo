@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A8EAAC128F7F08600CC9255 /* MTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A8EAAC028F7F08600CC9255 /* MTools.m */; };
+		2A8EAAC428F8080800CC9255 /* AllFunctionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A8EAAC328F8080800CC9255 /* AllFunctionsViewController.m */; };
+		2A8EAAC728F80A0900CC9255 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A8EAAC528F80A0900CC9255 /* CollectionViewCell.m */; };
+		2A8EAACA28F80A5300CC9255 /* AllHeaderCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A8EAAC828F80A5200CC9255 /* AllHeaderCollectionReusableView.m */; };
+		2AA7F63528FA553F00AB8FC2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AA7F63428FA553F00AB8FC2 /* AudioToolbox.framework */; };
+		2AA7F63728FA554B00AB8FC2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AA7F63628FA554B00AB8FC2 /* AVFoundation.framework */; };
+		2AA7F63928FA555400AB8FC2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AA7F63828FA555400AB8FC2 /* CoreGraphics.framework */; };
+		2AA7F63B28FA555E00AB8FC2 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AA7F63A28FA555E00AB8FC2 /* CoreMedia.framework */; };
+		2AA7F63D28FA556600AB8FC2 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AA7F63C28FA556600AB8FC2 /* CoreVideo.framework */; };
+		2AA7F63F28FA557A00AB8FC2 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AA7F63E28FA557A00AB8FC2 /* libbz2.tbd */; };
+		2AA7F64128FA55B300AB8FC2 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AA7F64028FA55B300AB8FC2 /* libz.tbd */; };
+		2AA7F64328FA55C500AB8FC2 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AA7F64228FA55C500AB8FC2 /* MediaPlayer.framework */; };
+		2AA7F64528FA55D900AB8FC2 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AA7F64428FA55D900AB8FC2 /* MobileCoreServices.framework */; };
+		2AA7F64728FA55E300AB8FC2 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AA7F64628FA55E300AB8FC2 /* OpenGLES.framework */; };
+		2AA7F64928FA55F200AB8FC2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AA7F64828FA55F200AB8FC2 /* QuartzCore.framework */; };
+		2AA7F64B28FA55F900AB8FC2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AA7F64A28FA55F900AB8FC2 /* UIKit.framework */; };
+		2AA7F64D28FA560300AB8FC2 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AA7F64C28FA560300AB8FC2 /* VideoToolbox.framework */; };
+		2AF202B928F6B8AD00B070F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF202B828F6B8AD00B070F4 /* AppDelegate.m */; };
+		2AF202BC28F6B8AD00B070F4 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF202BB28F6B8AD00B070F4 /* SceneDelegate.m */; };
+		2AF202BF28F6B8AD00B070F4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF202BE28F6B8AD00B070F4 /* ViewController.m */; };
+		2AF202C228F6B8AD00B070F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AF202C028F6B8AD00B070F4 /* Main.storyboard */; };
+		2AF202C428F6B8AF00B070F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AF202C328F6B8AF00B070F4 /* Assets.xcassets */; };
+		2AF202C728F6B8AF00B070F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AF202C528F6B8AF00B070F4 /* LaunchScreen.storyboard */; };
+		2AF202CA28F6B8AF00B070F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF202C928F6B8AF00B070F4 /* main.m */; };
+		5646DA62E7139BA940070CD9 /* libPods-CarMonitoringOpenDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B34A69223068574DBF0D9170 /* libPods-CarMonitoringOpenDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A8EAABF28F7F08600CC9255 /* MTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTools.h; sourceTree = "<group>"; };
+		2A8EAAC028F7F08600CC9255 /* MTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTools.m; sourceTree = "<group>"; };
+		2A8EAAC228F8080800CC9255 /* AllFunctionsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AllFunctionsViewController.h; sourceTree = "<group>"; };
+		2A8EAAC328F8080800CC9255 /* AllFunctionsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AllFunctionsViewController.m; sourceTree = "<group>"; };
+		2A8EAAC528F80A0900CC9255 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		2A8EAAC628F80A0900CC9255 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		2A8EAAC828F80A5200CC9255 /* AllHeaderCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllHeaderCollectionReusableView.m; sourceTree = "<group>"; };
+		2A8EAAC928F80A5300CC9255 /* AllHeaderCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllHeaderCollectionReusableView.h; sourceTree = "<group>"; };
+		2AA7F63428FA553F00AB8FC2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		2AA7F63628FA554B00AB8FC2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2AA7F63828FA555400AB8FC2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2AA7F63A28FA555E00AB8FC2 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		2AA7F63C28FA556600AB8FC2 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		2AA7F63E28FA557A00AB8FC2 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		2AA7F64028FA55B300AB8FC2 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		2AA7F64228FA55C500AB8FC2 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		2AA7F64428FA55D900AB8FC2 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		2AA7F64628FA55E300AB8FC2 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		2AA7F64828FA55F200AB8FC2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2AA7F64A28FA55F900AB8FC2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2AA7F64C28FA560300AB8FC2 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		2AF202B428F6B8AD00B070F4 /* CarMonitoringOpenDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarMonitoringOpenDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AF202B728F6B8AD00B070F4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2AF202B828F6B8AD00B070F4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2AF202BA28F6B8AD00B070F4 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		2AF202BB28F6B8AD00B070F4 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		2AF202BD28F6B8AD00B070F4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2AF202BE28F6B8AD00B070F4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2AF202C128F6B8AD00B070F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2AF202C328F6B8AF00B070F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2AF202C628F6B8AF00B070F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2AF202C828F6B8AF00B070F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AF202C928F6B8AF00B070F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7207A73A31084E75117CD37A /* Pods-CarMonitoringOpenDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarMonitoringOpenDemo.release.xcconfig"; path = "Target Support Files/Pods-CarMonitoringOpenDemo/Pods-CarMonitoringOpenDemo.release.xcconfig"; sourceTree = "<group>"; };
+		ABF2E29CB24EAF064092192C /* Pods-CarMonitoringOpenDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarMonitoringOpenDemo.debug.xcconfig"; path = "Target Support Files/Pods-CarMonitoringOpenDemo/Pods-CarMonitoringOpenDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		B34A69223068574DBF0D9170 /* libPods-CarMonitoringOpenDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CarMonitoringOpenDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AF202B128F6B8AD00B070F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AA7F64D28FA560300AB8FC2 /* VideoToolbox.framework in Frameworks */,
+				2AA7F64B28FA55F900AB8FC2 /* UIKit.framework in Frameworks */,
+				2AA7F64928FA55F200AB8FC2 /* QuartzCore.framework in Frameworks */,
+				2AA7F64728FA55E300AB8FC2 /* OpenGLES.framework in Frameworks */,
+				2AA7F64528FA55D900AB8FC2 /* MobileCoreServices.framework in Frameworks */,
+				2AA7F64328FA55C500AB8FC2 /* MediaPlayer.framework in Frameworks */,
+				2AA7F64128FA55B300AB8FC2 /* libz.tbd in Frameworks */,
+				2AA7F63F28FA557A00AB8FC2 /* libbz2.tbd in Frameworks */,
+				2AA7F63D28FA556600AB8FC2 /* CoreVideo.framework in Frameworks */,
+				2AA7F63B28FA555E00AB8FC2 /* CoreMedia.framework in Frameworks */,
+				2AA7F63928FA555400AB8FC2 /* CoreGraphics.framework in Frameworks */,
+				2AA7F63728FA554B00AB8FC2 /* AVFoundation.framework in Frameworks */,
+				2AA7F63528FA553F00AB8FC2 /* AudioToolbox.framework in Frameworks */,
+				5646DA62E7139BA940070CD9 /* libPods-CarMonitoringOpenDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AF202AB28F6B8AD00B070F4 = {
+			isa = PBXGroup;
+			children = (
+				2AF202B628F6B8AD00B070F4 /* CarMonitoringOpenDemo */,
+				2AF202B528F6B8AD00B070F4 /* Products */,
+				8121F6516EA995E957C56C91 /* Pods */,
+				92244DF79569C69B6176F321 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2AF202B528F6B8AD00B070F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AF202B428F6B8AD00B070F4 /* CarMonitoringOpenDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AF202B628F6B8AD00B070F4 /* CarMonitoringOpenDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2AF202B728F6B8AD00B070F4 /* AppDelegate.h */,
+				2AF202B828F6B8AD00B070F4 /* AppDelegate.m */,
+				2AF202BA28F6B8AD00B070F4 /* SceneDelegate.h */,
+				2AF202BB28F6B8AD00B070F4 /* SceneDelegate.m */,
+				2AF202BD28F6B8AD00B070F4 /* ViewController.h */,
+				2AF202BE28F6B8AD00B070F4 /* ViewController.m */,
+				2A8EAAC228F8080800CC9255 /* AllFunctionsViewController.h */,
+				2A8EAAC328F8080800CC9255 /* AllFunctionsViewController.m */,
+				2A8EAAC928F80A5300CC9255 /* AllHeaderCollectionReusableView.h */,
+				2A8EAAC828F80A5200CC9255 /* AllHeaderCollectionReusableView.m */,
+				2A8EAAC628F80A0900CC9255 /* CollectionViewCell.h */,
+				2A8EAAC528F80A0900CC9255 /* CollectionViewCell.m */,
+				2A8EAABF28F7F08600CC9255 /* MTools.h */,
+				2A8EAAC028F7F08600CC9255 /* MTools.m */,
+				2AF202C028F6B8AD00B070F4 /* Main.storyboard */,
+				2AF202C328F6B8AF00B070F4 /* Assets.xcassets */,
+				2AF202C528F6B8AF00B070F4 /* LaunchScreen.storyboard */,
+				2AF202C828F6B8AF00B070F4 /* Info.plist */,
+				2AF202C928F6B8AF00B070F4 /* main.m */,
+			);
+			path = CarMonitoringOpenDemo;
+			sourceTree = "<group>";
+		};
+		8121F6516EA995E957C56C91 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ABF2E29CB24EAF064092192C /* Pods-CarMonitoringOpenDemo.debug.xcconfig */,
+				7207A73A31084E75117CD37A /* Pods-CarMonitoringOpenDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		92244DF79569C69B6176F321 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2AA7F64C28FA560300AB8FC2 /* VideoToolbox.framework */,
+				2AA7F64A28FA55F900AB8FC2 /* UIKit.framework */,
+				2AA7F64828FA55F200AB8FC2 /* QuartzCore.framework */,
+				2AA7F64628FA55E300AB8FC2 /* OpenGLES.framework */,
+				2AA7F64428FA55D900AB8FC2 /* MobileCoreServices.framework */,
+				2AA7F64228FA55C500AB8FC2 /* MediaPlayer.framework */,
+				2AA7F64028FA55B300AB8FC2 /* libz.tbd */,
+				2AA7F63E28FA557A00AB8FC2 /* libbz2.tbd */,
+				2AA7F63C28FA556600AB8FC2 /* CoreVideo.framework */,
+				2AA7F63A28FA555E00AB8FC2 /* CoreMedia.framework */,
+				2AA7F63828FA555400AB8FC2 /* CoreGraphics.framework */,
+				2AA7F63628FA554B00AB8FC2 /* AVFoundation.framework */,
+				2AA7F63428FA553F00AB8FC2 /* AudioToolbox.framework */,
+				B34A69223068574DBF0D9170 /* libPods-CarMonitoringOpenDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2AF202B328F6B8AD00B070F4 /* CarMonitoringOpenDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AF202CD28F6B8AF00B070F4 /* Build configuration list for PBXNativeTarget "CarMonitoringOpenDemo" */;
+			buildPhases = (
+				E796053FDD18876E0A07F90C /* [CP] Check Pods Manifest.lock */,
+				2AF202B028F6B8AD00B070F4 /* Sources */,
+				2AF202B128F6B8AD00B070F4 /* Frameworks */,
+				2AF202B228F6B8AD00B070F4 /* Resources */,
+				706932170917C68CB25E6FA2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarMonitoringOpenDemo;
+			productName = CarMonitoringOpenDemo;
+			productReference = 2AF202B428F6B8AD00B070F4 /* CarMonitoringOpenDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AF202AC28F6B8AD00B070F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					2AF202B328F6B8AD00B070F4 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = 2AF202AF28F6B8AD00B070F4 /* Build configuration list for PBXProject "CarMonitoringOpenDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2AF202AB28F6B8AD00B070F4;
+			productRefGroup = 2AF202B528F6B8AD00B070F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AF202B328F6B8AD00B070F4 /* CarMonitoringOpenDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AF202B228F6B8AD00B070F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AF202C728F6B8AF00B070F4 /* LaunchScreen.storyboard in Resources */,
+				2AF202C428F6B8AF00B070F4 /* Assets.xcassets in Resources */,
+				2AF202C228F6B8AD00B070F4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		706932170917C68CB25E6FA2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarMonitoringOpenDemo/Pods-CarMonitoringOpenDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarMonitoringOpenDemo/Pods-CarMonitoringOpenDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CarMonitoringOpenDemo/Pods-CarMonitoringOpenDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E796053FDD18876E0A07F90C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarMonitoringOpenDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AF202B028F6B8AD00B070F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A8EAACA28F80A5300CC9255 /* AllHeaderCollectionReusableView.m in Sources */,
+				2AF202BF28F6B8AD00B070F4 /* ViewController.m in Sources */,
+				2AF202B928F6B8AD00B070F4 /* AppDelegate.m in Sources */,
+				2AF202CA28F6B8AF00B070F4 /* main.m in Sources */,
+				2AF202BC28F6B8AD00B070F4 /* SceneDelegate.m in Sources */,
+				2A8EAAC428F8080800CC9255 /* AllFunctionsViewController.m in Sources */,
+				2A8EAAC728F80A0900CC9255 /* CollectionViewCell.m in Sources */,
+				2A8EAAC128F7F08600CC9255 /* MTools.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2AF202C028F6B8AD00B070F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AF202C128F6B8AD00B070F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2AF202C528F6B8AF00B070F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AF202C628F6B8AF00B070F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2AF202CB28F6B8AF00B070F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2AF202CC28F6B8AF00B070F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2AF202CE28F6B8AF00B070F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABF2E29CB24EAF064092192C /* Pods-CarMonitoringOpenDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T96256Q3UH;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CarMonitoringOpenDemo",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CarMonitoringOpenDemo/Info.plist;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "App需要您的同意,才能访问媒体资料库";
+				INFOPLIST_KEY_NSCameraUsageDescription = "App需要您的同意,才能使用相机拍照上传图像和扫描二维码";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "App需要您的同意,使用位置以显示车辆位置";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "App需要您的同意,使用位置以显示车辆位置";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "APP需要您同意,才能访问语音功能";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "App需要您的同意,才能访问相册上传图像";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sy.CarMonitoringOpenDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2AF202CF28F6B8AF00B070F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7207A73A31084E75117CD37A /* Pods-CarMonitoringOpenDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T96256Q3UH;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CarMonitoringOpenDemo",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CarMonitoringOpenDemo/Info.plist;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "App需要您的同意,才能访问媒体资料库";
+				INFOPLIST_KEY_NSCameraUsageDescription = "App需要您的同意,才能使用相机拍照上传图像和扫描二维码";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "App需要您的同意,使用位置以显示车辆位置";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "App需要您的同意,使用位置以显示车辆位置";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "APP需要您同意,才能访问语音功能";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "App需要您的同意,才能访问相册上传图像";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sy.CarMonitoringOpenDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AF202AF28F6B8AD00B070F4 /* Build configuration list for PBXProject "CarMonitoringOpenDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AF202CB28F6B8AF00B070F4 /* Debug */,
+				2AF202CC28F6B8AF00B070F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AF202CD28F6B8AF00B070F4 /* Build configuration list for PBXNativeTarget "CarMonitoringOpenDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AF202CE28F6B8AF00B070F4 /* Debug */,
+				2AF202CF28F6B8AF00B070F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2AF202AC28F6B8AD00B070F4 /* Project object */;
+}
