@@ -24,6 +24,7 @@
 		2AA7F64928FA55F200AB8FC2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AA7F64828FA55F200AB8FC2 /* QuartzCore.framework */; };
 		2AA7F64B28FA55F900AB8FC2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AA7F64A28FA55F900AB8FC2 /* UIKit.framework */; };
 		2AA7F64D28FA560300AB8FC2 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AA7F64C28FA560300AB8FC2 /* VideoToolbox.framework */; };
+		2AB1F61728FC46A400D40DCF /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AB1F61628FC46A400D40DCF /* libc++.tbd */; };
 		2AF202B928F6B8AD00B070F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF202B828F6B8AD00B070F4 /* AppDelegate.m */; };
 		2AF202BC28F6B8AD00B070F4 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF202BB28F6B8AD00B070F4 /* SceneDelegate.m */; };
 		2AF202BF28F6B8AD00B070F4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF202BE28F6B8AD00B070F4 /* ViewController.m */; };
@@ -56,6 +57,7 @@
 		2AA7F64828FA55F200AB8FC2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		2AA7F64A28FA55F900AB8FC2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2AA7F64C28FA560300AB8FC2 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		2AB1F61628FC46A400D40DCF /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		2AF202B428F6B8AD00B070F4 /* CarMonitoringOpenDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarMonitoringOpenDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AF202B728F6B8AD00B070F4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2AF202B828F6B8AD00B070F4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AB1F61728FC46A400D40DCF /* libc++.tbd in Frameworks */,
 				2AA7F64D28FA560300AB8FC2 /* VideoToolbox.framework in Frameworks */,
 				2AA7F64B28FA55F900AB8FC2 /* UIKit.framework in Frameworks */,
 				2AA7F64928FA55F200AB8FC2 /* QuartzCore.framework in Frameworks */,
@@ -154,6 +157,7 @@
 		92244DF79569C69B6176F321 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2AB1F61628FC46A400D40DCF /* libc++.tbd */,
 				2AA7F64C28FA560300AB8FC2 /* VideoToolbox.framework */,
 				2AA7F64A28FA55F900AB8FC2 /* UIKit.framework */,
 				2AA7F64828FA55F200AB8FC2 /* QuartzCore.framework */,
