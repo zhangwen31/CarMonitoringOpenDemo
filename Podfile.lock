@@ -24,7 +24,7 @@ PODS:
     - AMapFoundation (~> 1.5)
   - AMapSearch (6.9.0):
     - AMapFoundation (~> 1.4)
-  - AWHBBasicBusiness (0.0.5):
+  - AWHBBasicBusiness (0.0.6):
     - AFNetworking
     - AWHBNetworkRequest
     - AWHBoneResources
@@ -38,7 +38,7 @@ PODS:
     - YYImage
     - YYModel
     - YYWebImage
-  - AWHBGaudeMapBus (0.0.2):
+  - AWHBGaudeMapBus (0.0.3):
     - AFNetworking
     - AMap3DMap (= 6.9.0)
     - AMapLocation (= 2.6.2)
@@ -67,10 +67,10 @@ PODS:
     - Masonry
     - MBProgressHUD
     - SDWebImage
-  - AWHBoneResources (0.0.9)
+  - AWHBoneResources (0.0.10)
   - AWHBoneRouter (0.0.5)
-  - AWHBoneRuntime (0.0.8)
-  - AWHBPublicBusiness (0.0.4):
+  - AWHBoneRuntime (0.0.9)
+  - AWHBPublicBusiness (0.0.5):
     - AFNetworking
     - AWHBBasicBusiness
     - AWHBNetworkRequest
@@ -86,7 +86,7 @@ PODS:
     - YYImage
     - YYWebImage
   - AWHIJKPlayer (0.0.2)
-  - AWHMonitoringModule (0.0.1):
+  - AWHMonitoringModule (0.0.2):
     - AFNetworking
     - AMap3DMap (= 6.9.0)
     - AMapLocation (= 2.6.2)
@@ -117,7 +117,7 @@ PODS:
     - YYWebImage
   - AWHOilSwift (0.0.1):
     - Charts
-  - AWHReportModule (0.0.3):
+  - AWHReportModule (0.0.4):
     - AFNetworking
     - AWHBBasicBusiness
     - AWHBNetworkRequest
@@ -136,7 +136,7 @@ PODS:
     - MJRefresh
     - YYImage
     - YYWebImage
-  - AWHSensorStatistics (0.0.2):
+  - AWHSensorStatistics (0.0.3):
     - AFNetworking
     - AWHBBasicBusiness
     - AWHBNetworkRequest
@@ -154,7 +154,7 @@ PODS:
     - MJRefresh
     - YYImage
     - YYWebImage
-  - AWHVideoPlayer (0.0.2):
+  - AWHVideoPlayer (0.0.3):
     - AFNetworking
     - AMap3DMap (= 6.9.0)
     - AMapLocation (= 2.6.2)
@@ -243,19 +243,19 @@ DEPENDENCIES:
   - AMapLocation (= 2.6.2)
   - AMapNavi (= 6.9.1)
   - AMapSearch (= 6.9.0)
-  - AWHBBasicBusiness (= 0.0.5)
-  - AWHBGaudeMapBus (= 0.0.2)
+  - AWHBBasicBusiness (= 0.0.6)
+  - AWHBGaudeMapBus (= 0.0.3)
   - AWHBNetworkRequest (= 0.0.7)
-  - AWHBoneResources (= 0.0.9)
+  - AWHBoneResources (= 0.0.10)
   - AWHBoneRouter (= 0.0.5)
-  - AWHBoneRuntime (= 0.0.8)
-  - AWHBPublicBusiness (= 0.0.4)
+  - AWHBoneRuntime (= 0.0.9)
+  - AWHBPublicBusiness (= 0.0.5)
   - AWHIJKPlayer (= 0.0.2)
-  - AWHMonitoringModule (= 0.0.1)
+  - AWHMonitoringModule (= 0.0.2)
   - AWHOilSwift (= 0.0.1)
-  - AWHReportModule (= 0.0.3)
-  - AWHSensorStatistics (= 0.0.2)
-  - AWHVideoPlayer (= 0.0.2)
+  - AWHReportModule (= 0.0.4)
+  - AWHSensorStatistics (= 0.0.3)
+  - AWHVideoPlayer (= 0.0.3)
   - Charts (= 4.1.0)
   - CocoaAsyncSocket (= 7.6.5)
   - FQPhotoAlbum (= 1.0)
@@ -323,19 +323,19 @@ SPEC CHECKSUMS:
   AMapLocation: 89a7e4eb6040d32ba73c77a4966ecc66e46aa7c3
   AMapNavi: 7e7c6ab0b9ad45ddba19297901d63236ff4be710
   AMapSearch: af02822537e55b85a4752e9df5c19e4b9da82031
-  AWHBBasicBusiness: 39432bd2dc3bcaaf2bb43d84f6304abaa0498dbb
-  AWHBGaudeMapBus: ffe04d294e6610ccc516ecff637f2829f831d51b
+  AWHBBasicBusiness: 7f3acda2b712c7ae8e9dcf9cb2119b5314bafa7b
+  AWHBGaudeMapBus: 2119346d5b458b7852bc320491cdb577c88447ff
   AWHBNetworkRequest: 0827fb74ba722df639071e9f7714a29eafd4c44b
-  AWHBoneResources: eca72b330c3d69f32488acc950df04de6d39edf7
+  AWHBoneResources: 14a41f1f55cdacd0c4d83308f830bfe8b4fdaaa9
   AWHBoneRouter: e8e4a53ee7b422c24b13ee7d7013a2639e31189c
-  AWHBoneRuntime: 79fdb4bb6afc7e7b187331bc143a49517a5a9a2f
-  AWHBPublicBusiness: d0b873ced873e3c4cc5c2a27051560fe5e6d3723
+  AWHBoneRuntime: 7e57d06c55e5efed964d2a16713c1b85a32a9026
+  AWHBPublicBusiness: 682c42068044b172055efb965013f25afce99d29
   AWHIJKPlayer: 33fc402dc11408d5739b7354387d4ece374d011f
-  AWHMonitoringModule: 5e98867819086572f68154c296331434188fc856
+  AWHMonitoringModule: 401abaf04538dfd09183fc6cc2faa1a71b71a480
   AWHOilSwift: 7e8ee777ef79604c943ec121bcb16e842aef0df5
-  AWHReportModule: 2be4aedde3f25135f62ae2f87f01c24b7d77a1ac
-  AWHSensorStatistics: 9d09baa49ec681abd04b81bf920635cff70edddd
-  AWHVideoPlayer: 8ac1544493f1547665a5ebb389dd1255b691a059
+  AWHReportModule: 5530c23ab414c9d60aea4d0f89c8ba122240a3ad
+  AWHSensorStatistics: b8e23c6eefcad12d1dd11afe6e8c3a51420270b9
+  AWHVideoPlayer: b847e154ef3b0fa9ac3ec39fbbf22ee37d2c7647
   Charts: 354f86803d11d9c35de280587fef50d1af063978
   CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
   FQPhotoAlbum: 14d41f5feeddb605be63756334be066cda4840b3
@@ -356,6 +356,6 @@ SPEC CHECKSUMS:
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
   YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
 
-PODFILE CHECKSUM: fcd5a9948f88468f5c203fd10515c8a339771075
+PODFILE CHECKSUM: bb4683f230fa6cc4ee948a8719fa404114129ee7
 
 COCOAPODS: 1.11.3

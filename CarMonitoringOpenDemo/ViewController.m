@@ -86,7 +86,7 @@
     
     self.userTextField = [[UITextField alloc] init];
     self.userTextField.placeholder = @"请输入账号";
-    self.userTextField.text = @"yfzy";
+    self.userTextField.text = @"ys_admin";
     self.userTextField.textAlignment = NSTextAlignmentLeft;
     self.userTextField.font = [UIFont systemFontOfSize:18];
     [self.view addSubview:self.userTextField];
@@ -302,7 +302,7 @@
 - (void)userButAction:(UIButton *)sender
 {
     self.isCar = NO;
-    self.userTextField.text = @"yfzy";
+    self.userTextField.text = @"ys_admin";
     self.passwordTextField.text = @"123456";
     self.plateColorView.hidden = YES;
     [self.userBut setTitleColor:[UIColor colorWithHexString:@"3791E9"] forState:UIControlStateNormal];
@@ -313,8 +313,8 @@
 - (void)carButAction:(UIButton *)sender
 {
     self.isCar = YES;
-    self.userTextField.text = @"演示16";
-    self.passwordTextField.text = @"000000";
+    self.userTextField.text = @"演示18";
+    self.passwordTextField.text = @"123456";
     self.plateColorView.hidden = NO;
     [self.userBut setTitleColor:[UIColor colorWithHexString:@"333333"] forState:UIControlStateNormal];
     [self.carBut setTitleColor:[UIColor colorWithHexString:@"3791E9"] forState:UIControlStateNormal];

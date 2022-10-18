@@ -36,6 +36,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A71586728FE989A00E2A29F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		2A71586828FE989A00E2A29F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		2A8EAABF28F7F08600CC9255 /* MTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTools.h; sourceTree = "<group>"; };
 		2A8EAAC028F7F08600CC9255 /* MTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTools.m; sourceTree = "<group>"; };
 		2A8EAAC228F8080800CC9255 /* AllFunctionsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AllFunctionsViewController.h; sourceTree = "<group>"; };
@@ -219,6 +221,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 2AF202AB28F6B8AD00B070F4;
 			productRefGroup = 2AF202B528F6B8AD00B070F4 /* Products */;
@@ -308,6 +311,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				2AF202C128F6B8AD00B070F4 /* Base */,
+				2A71586728FE989A00E2A29F /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -316,6 +320,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				2AF202C628F6B8AF00B070F4 /* Base */,
+				2A71586828FE989A00E2A29F /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -327,6 +332,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -385,6 +391,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -448,6 +455,7 @@
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CarMonitoringOpenDemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "云查车SDK";
 				INFOPLIST_KEY_NSAppleMusicUsageDescription = "App需要您的同意,才能访问媒体资料库";
 				INFOPLIST_KEY_NSCameraUsageDescription = "App需要您的同意,才能使用相机拍照上传图像和扫描二维码";
 				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "App需要您的同意,使用位置以显示车辆位置";
@@ -487,6 +495,7 @@
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CarMonitoringOpenDemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "云查车SDK";
 				INFOPLIST_KEY_NSAppleMusicUsageDescription = "App需要您的同意,才能访问媒体资料库";
 				INFOPLIST_KEY_NSCameraUsageDescription = "App需要您的同意,才能使用相机拍照上传图像和扫描二维码";
 				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "App需要您的同意,使用位置以显示车辆位置";
