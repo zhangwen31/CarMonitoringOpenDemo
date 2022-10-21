@@ -86,7 +86,7 @@ PODS:
     - YYImage
     - YYWebImage
   - AWHIJKPlayer (0.0.2)
-  - AWHMonitoringModule (0.0.2):
+  - AWHMonitoringModule (0.0.3):
     - AFNetworking
     - AMap3DMap (= 6.9.0)
     - AMapLocation (= 2.6.2)
@@ -251,7 +251,7 @@ DEPENDENCIES:
   - AWHBoneRuntime (= 0.0.9)
   - AWHBPublicBusiness (= 0.0.5)
   - AWHIJKPlayer (= 0.0.2)
-  - AWHMonitoringModule (= 0.0.2)
+  - AWHMonitoringModule (= 0.0.3)
   - AWHOilSwift (= 0.0.1)
   - AWHReportModule (= 0.0.4)
   - AWHSensorStatistics (= 0.0.3)
@@ -331,7 +331,7 @@ SPEC CHECKSUMS:
   AWHBoneRuntime: 7e57d06c55e5efed964d2a16713c1b85a32a9026
   AWHBPublicBusiness: 682c42068044b172055efb965013f25afce99d29
   AWHIJKPlayer: 33fc402dc11408d5739b7354387d4ece374d011f
-  AWHMonitoringModule: 401abaf04538dfd09183fc6cc2faa1a71b71a480
+  AWHMonitoringModule: c00fca5300c4a5ec8b54269199943976fc67d14e
   AWHOilSwift: 7e8ee777ef79604c943ec121bcb16e842aef0df5
   AWHReportModule: 5530c23ab414c9d60aea4d0f89c8ba122240a3ad
   AWHSensorStatistics: b8e23c6eefcad12d1dd11afe6e8c3a51420270b9
@@ -356,6 +356,6 @@ SPEC CHECKSUMS:
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
   YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
 
-PODFILE CHECKSUM: bb4683f230fa6cc4ee948a8719fa404114129ee7
+PODFILE CHECKSUM: dce1d676035b7c7835acdf91cdd7d86bd6a49119
 
 COCOAPODS: 1.11.3

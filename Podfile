@@ -57,7 +57,7 @@ target 'CarMonitoringOpenDemo' do
   #实时视频
   pod 'AWHVideoPlayer', '0.0.3'
   #监控模块
-  pod 'AWHMonitoringModule', '0.0.2'
+  pod 'AWHMonitoringModule', '0.0.3'
 
 
   pod 'UMCommon', '7.3.5'
