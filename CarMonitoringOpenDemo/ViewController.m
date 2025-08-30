@@ -6,7 +6,6 @@
 //
 
 #import "ViewController.h"
-#import <AWHMonitoringModule/AWHMMBaseTabBarViewController.h>
 #import <AWHBPublicBusiness/AWHBPBLoginRouter.h>
 #import <AWHBoneRuntime/AWHBoneRuntime.h>
 #import <Masonry/Masonry.h>
@@ -39,6 +38,12 @@
 
 @property (nonatomic, strong) UIButton *plateColorBut;
 
+@property (nonatomic, strong) UIButton *httpBut;
+
+@property (nonatomic, strong) UIButton *httpsBut;
+
+@property (nonatomic, assign) BOOL isHttps;
+
 @property(nonatomic,strong)UIView *bgView;
 
 @end
@@ -61,6 +66,7 @@
     }];
     
     UIButton *carBut = [[UIButton alloc] init];
+    carBut.hidden = YES;
     [carBut setTitle:@"车辆登录" forState:UIControlStateNormal];
     [carBut setTitleColor:[UIColor colorWithHexString:@"333333"] forState:UIControlStateNormal];
     [carBut addTarget:self action:@selector(carButAction:) forControlEvents:UIControlEventTouchUpInside];
@@ -250,6 +256,44 @@
         make.height.mas_equalTo(1);
     }];
     
+    
+    self.httpBut = [[UIButton alloc] init];
+    self.httpBut.clipsToBounds = YES;
+    self.httpBut.layer.cornerRadius = 8;
+    [self.httpBut setTitle:@"HTTP" forState:UIControlStateNormal];
+    [self.httpBut setTitleColor:[UIColor colorWithHexString:@"333333"] forState:UIControlStateNormal];
+    [self.httpBut setTitleColor:[UIColor colorWithHexString:@"FFFFFF"] forState:UIControlStateSelected];
+    [self.httpBut setBackgroundColor:[UIColor colorWithHexString:@"cfcfcf"] forState:UIControlStateNormal];
+    [self.httpBut setBackgroundColor:[UIColor colorWithHexString:@"3791E9"] forState:UIControlStateSelected];
+    [self.httpBut addTarget:self action:@selector(httpButAction) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:self.httpBut];
+    [self.httpBut mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.equalTo(lineView5.mas_bottom).offset(32);
+        make.left.equalTo(self.view.mas_left).offset(24);
+        make.height.mas_equalTo(40);
+        make.width.mas_equalTo(80);
+    }];
+    
+    self.httpBut.selected = YES;
+    
+    self.httpsBut = [[UIButton alloc] init];
+    self.httpsBut.clipsToBounds = YES;
+    self.httpsBut.layer.cornerRadius = 8;
+    [self.httpsBut setTitle:@"HTTPS" forState:UIControlStateNormal];
+    [self.httpsBut setTitleColor:[UIColor colorWithHexString:@"333333"] forState:UIControlStateNormal];
+    [self.httpsBut setTitleColor:[UIColor colorWithHexString:@"FFFFFF"] forState:UIControlStateSelected];
+    [self.httpsBut setBackgroundColor:[UIColor colorWithHexString:@"cfcfcf"] forState:UIControlStateNormal];
+    [self.httpsBut setBackgroundColor:[UIColor colorWithHexString:@"3791E9"] forState:UIControlStateSelected];
+    [self.httpsBut addTarget:self action:@selector(httpsButAction) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:self.httpsBut];
+    [self.httpsBut mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.equalTo(self.httpBut.mas_top);
+        make.left.equalTo(self.httpBut.mas_right).offset(24);
+        make.height.mas_equalTo(40);
+        make.width.mas_equalTo(80);
+    }];
+    
+    
     //登录按钮
     UIButton *landBtn = [[UIButton alloc] init];
     [landBtn setTitle:@"登录" forState:UIControlStateNormal];
@@ -270,6 +314,44 @@
     // Do any additional setup after loading the view.
 }
 
+- (void)httpButAction
+{
+    self.isHttps = NO;
+    self.httpBut.selected = YES;
+    self.httpsBut.selected = NO;
+    if (self.isCar) {
+        [self carButAction:nil];
+    } else {
+        [self userButAction:nil];
+    }
+}
+
+- (void)httpsButAction
+{
+    self.isHttps = YES;
+    self.httpBut.selected = NO;
+    self.httpsBut.selected = YES;
+    if (self.isCar) {
+        self.userTextField.text = @"";
+        self.passwordTextField.text = @"";
+        self.ipTextField.text = @"";
+        self.portTextField.text = @"";
+        self.plateColorView.hidden = NO;
+        [self.userBut setTitleColor:[UIColor colorWithHexString:@"333333"] forState:UIControlStateNormal];
+        [self.carBut setTitleColor:[UIColor colorWithHexString:@"3791E9"] forState:UIControlStateNormal];
+        self.userTextField.placeholder = @"请输入车牌号";
+    } else {
+        self.userTextField.text = @"";
+        self.passwordTextField.text = @"";
+        self.plateColorView.hidden = YES;
+        self.ipTextField.text = @"";
+        self.portTextField.text = @"";
+        [self.userBut setTitleColor:[UIColor colorWithHexString:@"3791E9"] forState:UIControlStateNormal];
+        [self.carBut setTitleColor:[UIColor colorWithHexString:@"333333"] forState:UIControlStateNormal];
+        self.userTextField.placeholder = @"请输入账号";
+    }
+}
+
 - (void)landBtn
 {
     if (!self.userTextField.text.length ||
@@ -280,12 +362,12 @@
         return;
     }
     if (self.isCar) {
-        [AWHBPBLoginRouter setupLoginIp:self.ipTextField.text port:self.portTextField.text userId:self.userTextField.text password:self.passwordTextField.text plateColorId:self.plateColorId];
-        [AWHBPBLoginRouter carLoginHudView:self.view callback:^(NSDictionary * _Nonnull requestDic) {
-            
-        }];
+//        [AWHBPBLoginRouter setupLoginIp:self.ipTextField.text port:self.portTextField.text userId:self.userTextField.text password:self.passwordTextField.text plateColorId:self.plateColorId];
+//        [AWHBPBLoginRouter carLoginHudView:self.view callback:^(NSDictionary * _Nonnull requestDic) {
+//            
+//        }];
     } else {
-        [AWHBPBLoginRouter setupLoginIp:self.ipTextField.text port:self.portTextField.text userId:self.userTextField.text password:self.passwordTextField.text plateColorId:@""];
+        [AWHBPBLoginRouter setupLoginIp:self.ipTextField.text port:self.portTextField.text isHttps:self.isHttps userId:self.userTextField.text password:self.passwordTextField.text plateColorId:@""];
         [AWHBPBLoginRouter userLoginHudView:self.view callback:^(NSDictionary * _Nonnull requestDic) {
             
             AllFunctionsViewController *vc = [[AllFunctionsViewController alloc] init];
@@ -302,23 +384,33 @@
 - (void)userButAction:(UIButton *)sender
 {
     self.isCar = NO;
-    self.userTextField.text = @"ys_admin";
-    self.passwordTextField.text = @"123456";
     self.plateColorView.hidden = YES;
     [self.userBut setTitleColor:[UIColor colorWithHexString:@"3791E9"] forState:UIControlStateNormal];
     [self.carBut setTitleColor:[UIColor colorWithHexString:@"333333"] forState:UIControlStateNormal];
     self.userTextField.placeholder = @"请输入账号";
+    if (self.isHttps) {
+        return;
+    }
+    self.userTextField.text = @"ys_admin";
+    self.passwordTextField.text = @"123456";
+    self.ipTextField.text = @"106.14.186.44";
+    self.portTextField.text = @"9999";
 }
 
 - (void)carButAction:(UIButton *)sender
 {
     self.isCar = YES;
-    self.userTextField.text = @"演示18";
-    self.passwordTextField.text = @"123456";
     self.plateColorView.hidden = NO;
     [self.userBut setTitleColor:[UIColor colorWithHexString:@"333333"] forState:UIControlStateNormal];
     [self.carBut setTitleColor:[UIColor colorWithHexString:@"3791E9"] forState:UIControlStateNormal];
     self.userTextField.placeholder = @"请输入车牌号";
+    if (self.isHttps) {
+        return;
+    }
+    self.userTextField.text = @"演示18";
+    self.passwordTextField.text = @"123456";
+    self.ipTextField.text = @"106.14.186.44";
+    self.portTextField.text = @"9999";
 }
 
 - (void)plateColorButAction
@@ -349,7 +441,7 @@
         make.top.equalTo(self.bgView.mas_top).offset(scaleFrom750(45 + [AWHBRTools getAppTopSpace] * 2));
         make.bottom.equalTo(self.bgView.mas_bottom).offset(-scaleFrom750(34 + [AWHBRTools getAppTopBottomSpace] * 2));
     }];
-    [colorView setColorWithArray:plateColorArr];
+    [colorView setColorWithArray:plateColorArr selectPlateColorId:@"1"];
     colorView.ReturnSureBtnBlock = ^(NSString *str, NSString *str2) {
         weakSelf.plateColorName = str;
         weakSelf.plateColorId = str2;

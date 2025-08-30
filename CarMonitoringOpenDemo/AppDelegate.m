@@ -14,6 +14,7 @@
 #import <UMCommon/UMCommon.h>
 #import<UMShare/UMShare.h>
 #import <AWHBoneRuntime/AWHBoneRuntime.h>
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -27,11 +28,20 @@
     
     [AWHBPBConfig setup];
 #if __has_include(<AWHBGaudeMapBus/AWHBGaudeMapBus.h>)
-    [AWHBGMRuntime application:application didFinishLaunchingWithOptions:launchOptions mapServicesApiKey:@"******"];
+//    NSString *apiKey = @"******"; //无效
+    NSString *apiKey = @"123456"; //无效 需要去高德地图注册 https://lbs.amap.com/api/ios-navi-sdk/guide/create-project/foundation-sdk
+    [AWHBGMRuntime application:application didFinishLaunchingWithOptions:launchOptions mapServicesApiKey:apiKey];
     [UMConfigure initWithAppkey:@"60fbd85317313b21b4531111" channel:@"App Store"];
 #endif
     [self confitUShareSettings];
     [self configUSharePlatforms];
+    
+    // 1. 初始化窗口
+    self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[ViewController alloc] init]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
     
     return YES;
 }
@@ -53,22 +63,6 @@
     [[UMSocialManager defaultManager] setPlaform:UMSocialPlatformType_WechatSession appKey:@"***" appSecret:@"***" redirectURL:@"***"];
 }
 
-
-#pragma mark - UISceneSession lifecycle
-
-
-- (UISceneConfiguration *)application:(UIApplication *)application configurationForConnectingSceneSession:(UISceneSession *)connectingSceneSession options:(UISceneConnectionOptions *)options {
-    // Called when a new scene session is being created.
-    // Use this method to select a configuration to create the new scene with.
-    return [[UISceneConfiguration alloc] initWithName:@"Default Configuration" sessionRole:connectingSceneSession.role];
-}
-
-
-- (void)application:(UIApplication *)application didDiscardSceneSessions:(NSSet<UISceneSession *> *)sceneSessions {
-    // Called when the user discards a scene session.
-    // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
-    // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
-}
 
 
 @end

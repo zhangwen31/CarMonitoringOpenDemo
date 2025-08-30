@@ -16,7 +16,7 @@ PODS:
     - AFNetworking/NSURLSession
   - AMap3DMap (6.9.0):
     - AMapFoundation (~> 1.5)
-  - AMapFoundation (1.8.0)
+  - AMapFoundation (1.8.2)
   - AMapLocation (2.6.2):
     - AMapFoundation (~> 1.4)
   - AMapNavi (6.9.1):
@@ -24,21 +24,21 @@ PODS:
     - AMapFoundation (~> 1.5)
   - AMapSearch (6.9.0):
     - AMapFoundation (~> 1.4)
-  - AWHBBasicBusiness (0.0.6):
+  - AWHBBasicBusiness (1.0.5):
     - AFNetworking
     - AWHBNetworkRequest
     - AWHBoneResources
     - AWHBoneRuntime
+    - AWHConnectSocket
+    - CocoaAsyncSocket
     - IQKeyboardManager
-    - JJException
     - Masonry
     - MBProgressHUD
     - MJExtension
     - SDWebImage
     - YYImage
     - YYModel
-    - YYWebImage
-  - AWHBGaudeMapBus (0.0.3):
+  - AWHBGaudeMapBus (1.0.6):
     - AFNetworking
     - AMap3DMap (= 6.9.0)
     - AMapLocation (= 2.6.2)
@@ -50,16 +50,17 @@ PODS:
     - AWHBoneRouter
     - AWHBoneRuntime
     - AWHBPublicBusiness
-    - Charts
+    - AWHVideoBasePlayer
+    - DGCharts
+    - FQPhotoAlbum
+    - IJKMediaFramework
     - IQKeyboardManager
-    - JJException
     - Masonry
     - MBProgressHUD
     - MJExtension
     - MJRefresh
     - YYImage
-    - YYWebImage
-  - AWHBNetworkRequest (0.0.7):
+  - AWHBNetworkRequest (1.0.4):
     - AFNetworking
     - AWHBoneResources
     - AWHBoneRuntime
@@ -67,26 +68,30 @@ PODS:
     - Masonry
     - MBProgressHUD
     - SDWebImage
-  - AWHBoneResources (0.0.10)
-  - AWHBoneRouter (0.0.5)
-  - AWHBoneRuntime (0.0.9)
-  - AWHBPublicBusiness (0.0.5):
+  - AWHBoneResources (1.0.3)
+  - AWHBoneRouter (1.0.2)
+  - AWHBoneRuntime (1.0.6):
+    - AWHBoneResources
+  - AWHBPublicBusiness (1.0.11):
     - AFNetworking
     - AWHBBasicBusiness
     - AWHBNetworkRequest
     - AWHBoneResources
     - AWHBoneRouter
     - AWHBoneRuntime
-    - Charts
+    - AWHOilSwift
+    - DGCharts
+    - FQPhotoAlbum
     - IQKeyboardManager
-    - JJException
     - Masonry
     - MBProgressHUD
     - MJExtension
+    - SAMKeychain
+    - TZImagePickerController
+    - TZImagePickerController/Basic
     - YYImage
-    - YYWebImage
-  - AWHIJKPlayer (0.0.2)
-  - AWHMonitoringModule (0.0.3):
+  - AWHConnectSocket (1.0.1)
+  - AWHMonitoringModule (1.0.5):
     - AFNetworking
     - AMap3DMap (= 6.9.0)
     - AMapLocation (= 2.6.2)
@@ -99,62 +104,24 @@ PODS:
     - AWHBoneRouter
     - AWHBoneRuntime
     - AWHBPublicBusiness
-    - AWHIJKPlayer
     - AWHOilSwift
     - AWHReportModule
     - AWHSensorStatistics
+    - AWHSettingConfig
+    - AWHVideoBasePlayer
     - AWHVideoPlayer
-    - Charts
-    - CocoaAsyncSocket
+    - DGCharts
     - FQPhotoAlbum
-    - JJException
+    - IJKMediaFramework
     - Masonry
     - MBProgressHUD
     - MJExtension
     - MJRefresh
     - SAMKeychain
     - YYImage
-    - YYWebImage
-  - AWHOilSwift (0.0.1):
-    - Charts
-  - AWHReportModule (0.0.4):
-    - AFNetworking
-    - AWHBBasicBusiness
-    - AWHBNetworkRequest
-    - AWHBoneResources
-    - AWHBoneRouter
-    - AWHBoneRuntime
-    - AWHBPublicBusiness
-    - AWHIJKPlayer
-    - Charts
-    - FQPhotoAlbum
-    - IQKeyboardManager
-    - JJException
-    - Masonry
-    - MBProgressHUD
-    - MJExtension
-    - MJRefresh
-    - YYImage
-    - YYWebImage
-  - AWHSensorStatistics (0.0.3):
-    - AFNetworking
-    - AWHBBasicBusiness
-    - AWHBNetworkRequest
-    - AWHBoneResources
-    - AWHBoneRouter
-    - AWHBoneRuntime
-    - AWHBPublicBusiness
-    - AWHOilSwift
-    - Charts
-    - IQKeyboardManager
-    - JJException
-    - Masonry
-    - MBProgressHUD
-    - MJExtension
-    - MJRefresh
-    - YYImage
-    - YYWebImage
-  - AWHVideoPlayer (0.0.3):
+  - AWHOilSwift (1.0.9):
+    - DGCharts
+  - AWHReportModule (1.0.5):
     - AFNetworking
     - AMap3DMap (= 6.9.0)
     - AMapLocation (= 2.6.2)
@@ -167,52 +134,125 @@ PODS:
     - AWHBoneRouter
     - AWHBoneRuntime
     - AWHBPublicBusiness
-    - AWHIJKPlayer
-    - AWHReportModule
-    - Charts
-    - CocoaAsyncSocket
+    - AWHVideoBasePlayer
+    - DGCharts
     - FQPhotoAlbum
-    - JJException
+    - IJKMediaFramework
+    - IQKeyboardManager
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
+    - TZImagePickerController
+    - TZImagePickerController/Basic
+    - YYImage
+  - AWHSensorStatistics (1.0.3):
+    - AFNetworking
+    - AWHBBasicBusiness
+    - AWHBNetworkRequest
+    - AWHBoneResources
+    - AWHBoneRouter
+    - AWHBoneRuntime
+    - AWHBPublicBusiness
+    - AWHOilSwift
+    - DGCharts
+    - IQKeyboardManager
     - Masonry
     - MBProgressHUD
     - MJExtension
     - MJRefresh
     - YYImage
-    - YYWebImage
-  - Charts (4.1.0):
-    - Charts/Core (= 4.1.0)
-  - Charts/Core (4.1.0):
-    - SwiftAlgorithms (~> 1.0)
+  - AWHSettingConfig (1.0.1):
+    - AFNetworking
+    - AMap3DMap
+    - AMapLocation
+    - AMapNavi
+    - AMapSearch
+    - AWHBBasicBusiness
+    - AWHBGaudeMapBus
+    - AWHBNetworkRequest
+    - AWHBoneResources
+    - AWHBoneRouter
+    - AWHBoneRuntime
+    - AWHBPublicBusiness
+    - AWHReportModule
+    - AWHVideoBasePlayer
+    - DGCharts
+    - FQPhotoAlbum
+    - IJKMediaFramework
+    - IQKeyboardManager
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
+    - SAMKeychain
+    - TZImagePickerController
+    - TZImagePickerController/Basic
+    - YYImage
+  - AWHVideoBasePlayer (1.0.1):
+    - AFNetworking
+    - AWHBBasicBusiness
+    - AWHBNetworkRequest
+    - AWHBoneResources
+    - AWHBoneRouter
+    - AWHBoneRuntime
+    - AWHBPublicBusiness
+    - DGCharts
+    - FQPhotoAlbum
+    - IJKMediaFramework
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
+    - YYImage
+  - AWHVideoPlayer (1.0.4):
+    - AFNetworking
+    - AMap3DMap (= 6.9.0)
+    - AMapLocation (= 2.6.2)
+    - AMapNavi (= 6.9.1)
+    - AMapSearch (= 6.9.0)
+    - AWHBBasicBusiness
+    - AWHBGaudeMapBus
+    - AWHBNetworkRequest
+    - AWHBoneResources
+    - AWHBoneRouter
+    - AWHBoneRuntime
+    - AWHBPublicBusiness
+    - AWHReportModule
+    - DGCharts
+    - FQPhotoAlbum
+    - IJKMediaFramework
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
+    - YYImage
   - CocoaAsyncSocket (7.6.5)
+  - DGCharts (5.1.0):
+    - DGCharts/Core (= 5.1.0)
+  - DGCharts/Core (5.1.0)
+  - FFChineseSort (0.0.2)
   - FQPhotoAlbum (1.0)
-  - IQKeyboardManager (6.5.10)
-  - JJException (0.2.5):
-    - JJException/All (= 0.2.5)
-  - JJException/All (0.2.5):
-    - JJException/ARC
-    - JJException/DeallocBlock
-    - JJException/Main
-    - JJException/MRC
-    - JJException/Swizzle
-  - JJException/ARC (0.2.5):
-    - JJException/DeallocBlock
-    - JJException/Main
-    - JJException/Swizzle
-  - JJException/DeallocBlock (0.2.5)
-  - JJException/Main (0.2.5)
-  - JJException/MRC (0.2.5):
-    - JJException/Main
-    - JJException/Swizzle
-  - JJException/Swizzle (0.2.5)
+  - IJKMediaFramework (0.1.5)
+  - IQKeyboardManager (6.5.19)
+  - LookinServer (1.2.8):
+    - LookinServer/Core (= 1.2.8)
+  - LookinServer/Core (1.2.8)
   - Masonry (1.1.0)
   - MBProgressHUD (1.1.0)
-  - MJExtension (3.1.2)
-  - MJRefresh (3.2.0)
+  - MJExtension (3.4.1)
+  - MJRefresh (3.7.5)
   - SAMKeychain (1.5.3)
+  - SDCycleScrollView (1.82):
+    - SDWebImage (>= 5.0.0)
   - SDWebImage (5.13.3):
     - SDWebImage/Core (= 5.13.3)
   - SDWebImage/Core (5.13.3)
-  - SwiftAlgorithms (1.0.0)
+  - TZImagePickerController (3.8.9):
+    - TZImagePickerController/Basic (= 3.8.9)
+    - TZImagePickerController/Location (= 3.8.9)
+  - TZImagePickerController/Basic (3.8.9)
+  - TZImagePickerController/Location (3.8.9)
   - UMCommon (7.3.5):
     - UMDevice
   - UMDevice (2.0.5)
@@ -228,14 +268,10 @@ PODS:
   - UMShare/UI (6.10.3):
     - UMCommon
     - UMShare/Core
-  - YYCache (1.0.4)
   - YYImage (1.0.4):
     - YYImage/Core (= 1.0.4)
   - YYImage/Core (1.0.4)
   - YYModel (1.0.4)
-  - YYWebImage (1.0.5):
-    - YYCache
-    - YYImage
 
 DEPENDENCIES:
   - AFNetworking (= 4.0.1)
@@ -243,46 +279,46 @@ DEPENDENCIES:
   - AMapLocation (= 2.6.2)
   - AMapNavi (= 6.9.1)
   - AMapSearch (= 6.9.0)
-  - AWHBBasicBusiness (= 0.0.6)
-  - AWHBGaudeMapBus (= 0.0.3)
-  - AWHBNetworkRequest (= 0.0.7)
-  - AWHBoneResources (= 0.0.10)
-  - AWHBoneRouter (= 0.0.5)
-  - AWHBoneRuntime (= 0.0.9)
-  - AWHBPublicBusiness (= 0.0.5)
-  - AWHIJKPlayer (= 0.0.2)
-  - AWHMonitoringModule (= 0.0.3)
-  - AWHOilSwift (= 0.0.1)
-  - AWHReportModule (= 0.0.4)
-  - AWHSensorStatistics (= 0.0.3)
-  - AWHVideoPlayer (= 0.0.3)
-  - Charts (= 4.1.0)
+  - AWHBBasicBusiness (= 1.0.5)
+  - AWHBGaudeMapBus (= 1.0.6)
+  - AWHBNetworkRequest (= 1.0.4)
+  - AWHBoneResources (= 1.0.3)
+  - AWHBoneRouter (= 1.0.2)
+  - AWHBoneRuntime (= 1.0.6)
+  - AWHBPublicBusiness (= 1.0.11)
+  - AWHConnectSocket (= 1.0.1)
+  - AWHMonitoringModule (= 1.0.5)
+  - AWHOilSwift (= 1.0.9)
+  - AWHReportModule (= 1.0.5)
+  - AWHSensorStatistics (= 1.0.3)
+  - AWHSettingConfig (= 1.0.1)
+  - AWHVideoBasePlayer (= 1.0.1)
+  - AWHVideoPlayer (= 1.0.4)
   - CocoaAsyncSocket (= 7.6.5)
+  - DGCharts (~> 5.1.0)
+  - FFChineseSort (= 0.0.2)
   - FQPhotoAlbum (= 1.0)
-  - IQKeyboardManager (~> 6.5.10)
-  - JJException (= 0.2.5)
+  - IJKMediaFramework
+  - IQKeyboardManager
+  - LookinServer
   - Masonry (= 1.1.0)
   - MBProgressHUD (= 1.1.0)
-  - MJExtension (= 3.1.2)
-  - MJRefresh (= 3.2.0)
+  - MJExtension (= 3.4.1)
+  - MJRefresh (= 3.7.5)
   - SAMKeychain (= 1.5.3)
+  - SDCycleScrollView (= 1.82)
   - SDWebImage (= 5.13.3)
+  - TZImagePickerController
+  - TZImagePickerController/Basic
   - UMCommon (= 7.3.5)
   - UMDevice (= 2.0.5)
   - UMShare/Social/WeChat (= 6.10.3)
   - UMShare/UI (= 6.10.3)
   - YYImage (= 1.0.4)
   - YYModel (= 1.0.4)
-  - YYWebImage (= 1.0.5)
 
 SPEC REPOS:
-  trunk:
-    - AFNetworking
-    - AMap3DMap
-    - AMapFoundation
-    - AMapLocation
-    - AMapNavi
-    - AMapSearch
+  https://github.com/zhangwen31/AWHGitHubSpec-iOS.git:
     - AWHBBasicBusiness
     - AWHBGaudeMapBus
     - AWHBNetworkRequest
@@ -290,72 +326,85 @@ SPEC REPOS:
     - AWHBoneRouter
     - AWHBoneRuntime
     - AWHBPublicBusiness
-    - AWHIJKPlayer
+    - AWHConnectSocket
     - AWHMonitoringModule
     - AWHOilSwift
     - AWHReportModule
     - AWHSensorStatistics
+    - AWHSettingConfig
+    - AWHVideoBasePlayer
     - AWHVideoPlayer
-    - Charts
+  trunk:
+    - AFNetworking
+    - AMap3DMap
+    - AMapFoundation
+    - AMapLocation
+    - AMapNavi
+    - AMapSearch
     - CocoaAsyncSocket
+    - DGCharts
+    - FFChineseSort
     - FQPhotoAlbum
+    - IJKMediaFramework
     - IQKeyboardManager
-    - JJException
+    - LookinServer
     - Masonry
     - MBProgressHUD
     - MJExtension
     - MJRefresh
     - SAMKeychain
+    - SDCycleScrollView
     - SDWebImage
-    - SwiftAlgorithms
+    - TZImagePickerController
     - UMCommon
     - UMDevice
     - UMShare
-    - YYCache
     - YYImage
     - YYModel
-    - YYWebImage
 
 SPEC CHECKSUMS:
-  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
   AMap3DMap: c80b264f08f179d9b0949b84c65fc1a51dec9d6f
-  AMapFoundation: f48153f724114b58da9b01875ab88a1f6856e3db
+  AMapFoundation: 9885c48fc3a78fdfb84a0299a2293e56ea3c9fec
   AMapLocation: 89a7e4eb6040d32ba73c77a4966ecc66e46aa7c3
   AMapNavi: 7e7c6ab0b9ad45ddba19297901d63236ff4be710
   AMapSearch: af02822537e55b85a4752e9df5c19e4b9da82031
-  AWHBBasicBusiness: 7f3acda2b712c7ae8e9dcf9cb2119b5314bafa7b
-  AWHBGaudeMapBus: 2119346d5b458b7852bc320491cdb577c88447ff
-  AWHBNetworkRequest: 0827fb74ba722df639071e9f7714a29eafd4c44b
-  AWHBoneResources: 14a41f1f55cdacd0c4d83308f830bfe8b4fdaaa9
-  AWHBoneRouter: e8e4a53ee7b422c24b13ee7d7013a2639e31189c
-  AWHBoneRuntime: 7e57d06c55e5efed964d2a16713c1b85a32a9026
-  AWHBPublicBusiness: 682c42068044b172055efb965013f25afce99d29
-  AWHIJKPlayer: 33fc402dc11408d5739b7354387d4ece374d011f
-  AWHMonitoringModule: c00fca5300c4a5ec8b54269199943976fc67d14e
-  AWHOilSwift: 7e8ee777ef79604c943ec121bcb16e842aef0df5
-  AWHReportModule: 5530c23ab414c9d60aea4d0f89c8ba122240a3ad
-  AWHSensorStatistics: b8e23c6eefcad12d1dd11afe6e8c3a51420270b9
-  AWHVideoPlayer: b847e154ef3b0fa9ac3ec39fbbf22ee37d2c7647
-  Charts: 354f86803d11d9c35de280587fef50d1af063978
+  AWHBBasicBusiness: 1c5d41797e7601acf4d00f6933392403ef0d4b07
+  AWHBGaudeMapBus: 00e7bebcef4ce786c7440c089feecdcfaa4bb220
+  AWHBNetworkRequest: e5c8460b2f8cc905b7a11f06eee4749fe2fe5c2a
+  AWHBoneResources: 8e455bb99b0b79c5f96339382b19ffa36e51124b
+  AWHBoneRouter: 1c03be6357041c85f93bbad3e10d50416ee328c6
+  AWHBoneRuntime: 8d72c8c29f281dcfb1b7318de141ae65f1e3015d
+  AWHBPublicBusiness: 9283f1298016db719ca442aeadb10db02581b253
+  AWHConnectSocket: e577f2952151cd4a326663a2dc90aa43b58892ab
+  AWHMonitoringModule: ac8f1018443e02336e10680d287ebcd0acf69303
+  AWHOilSwift: d6e37093c747a2c27030e0a5258ffa29acbdba6d
+  AWHReportModule: 09e0acddc89805726842aa310c5691e995fad8f1
+  AWHSensorStatistics: 7f6f1eec02726f363463003c98d7ea4f8f200d83
+  AWHSettingConfig: a41a466895ad3a5603f2b96853330e70a75b821d
+  AWHVideoBasePlayer: 3dd126b03360c877555fcdc2425d04775b29c673
+  AWHVideoPlayer: 1c88975e4d1dc97204414d36be51ac9d44e8a5d4
   CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
+  DGCharts: 1c6daf585b6cfc78807af44ea690d357c410627f
+  FFChineseSort: 04a4fd2cd6f274567b52bc14cb5c669d5fddb3e8
   FQPhotoAlbum: 14d41f5feeddb605be63756334be066cda4840b3
-  IQKeyboardManager: 45a1fa55c1a5b02c61ac0fd7fd5b62bb4ad20d97
-  JJException: 643c594b0fb3427c5cd1cf09e2483829ce550a28
+  IJKMediaFramework: f1119f6324c96bc4654f3045a5beaa95ba0596c0
+  IQKeyboardManager: c8665b3396bd0b79402b4c573eac345a31c7d485
+  LookinServer: 1b2b61c6402ae29fa22182d48f5cd067b4e99e80
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
-  MJExtension: 81e8e411ced318561dd09334b0c83d8227cef79c
-  MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
+  MJExtension: 21c5f6f8c4d5d8844b7ae8fbae08fed0b501f961
+  MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
   SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
+  SDCycleScrollView: a0d74c3384caa72bdfc81470bdbc8c14b3e1fbcf
   SDWebImage: af5bbffef2cde09f148d826f9733dcde1a9414cd
-  SwiftAlgorithms: 38dda4731d19027fdeee1125f973111bf3386b53
+  TZImagePickerController: 456f470b5dea97b37226ec7a694994a8663340b2
   UMCommon: ab4d875ddefe1b06c60b577e4a58bc4d433ee067
   UMDevice: c13bbb2e8ca6c67d1e23e03162553e3ec5a8b5b0
   UMShare: a3f9cb2d3ece67edd2c58331bd89bfffb289782b
-  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
   YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
-  YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
 
-PODFILE CHECKSUM: dce1d676035b7c7835acdf91cdd7d86bd6a49119
+PODFILE CHECKSUM: 10a8bf52a8b45439115a8ec1f57a68f7cafcba8c
 
-COCOAPODS: 1.11.3
+COCOAPODS: 1.16.2

@@ -8,6 +8,7 @@
 #import "MTools.h"
 #import <UMShare/UMShare.h>
 #import <AWHBBasicBusiness/UIViewController+AWHBB.h>
+#import <AWHBoneResources/AWHBoneResources.h>
 
 @implementation MTools
 
@@ -40,7 +41,7 @@
 - (void)shareTitle:(NSString *)title desc:(NSString *)desc url:(NSString *)url
 {
     UMSocialMessageObject *messageObject = [UMSocialMessageObject messageObject];
-    UMShareWebpageObject *shareObject = [UMShareWebpageObject shareObjectWithTitle:title descr:desc thumImage:[UIImage imageNamed:@"云查车"]];
+    UMShareWebpageObject *shareObject = [UMShareWebpageObject shareObjectWithTitle:title descr:desc thumImage:[AWHBRSUtilities imageNamed:@"云查车"]];
     shareObject.webpageUrl = url;
     messageObject.shareObject = shareObject;
     [[UMSocialManager defaultManager] shareToPlatform:UMSocialPlatformType_WechatSession messageObject:messageObject currentViewController:nil  completion:^(id result, NSError *error) {
@@ -51,5 +52,22 @@
         }
     }];
 }
+
+- (void)shareMessageText:(NSString *)text { 
+    //创建分享消息对象
+    UMSocialMessageObject*messageObject =[UMSocialMessageObject messageObject];
+    //设置文本
+    messageObject.text = text;
+
+    //调用分享接口
+    [[UMSocialManager defaultManager] shareToPlatform:UMSocialPlatformType_WechatSession messageObject:messageObject currentViewController:nil completion:^(id data,NSError*error){
+        if (error) {
+            [[AWHBRTools getCurrentVC] showHint:AWHBRLocalizedString(@"分享失败")];
+        } else {
+            [[AWHBRTools getCurrentVC] showHint:AWHBRLocalizedString(@"分享成功")];
+        }
+    }];
+}
+
 
 @end

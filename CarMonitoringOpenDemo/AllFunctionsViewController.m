@@ -12,7 +12,6 @@
 #import <AWHBBasicBusiness/AWHBBasicBusiness.h>
 #import <AWHBNetworkRequest/AWHBNetworkRequest.h>
 #import <MJExtension/MJExtension.h>
-#import <YYWebImage/YYWebImage.h>
 #import "AllHeaderCollectionReusableView.h"
 #import <AWHBoneResources/AWHBoneResources.h>
 #import <AWHBPublicBusiness/AWHBPBLoginRouter.h>
@@ -70,7 +69,7 @@
 - (NSMutableArray *)firstAreaArr
 {
     if (!_firstAreaArr) {
-        _firstAreaArr = [NSMutableArray arrayWithObjects:@"单车监控",@"多车监控",@"列表监控",@"极简监控",@"历史轨迹",@"实时报警",@"实时视频",@"录像回放", nil];
+        _firstAreaArr = [NSMutableArray arrayWithObjects:@"单车监控",@"多车监控",@"列表监控",@"极简监控",@"历史轨迹",@"实时报警",@"实时视频",@"录像回放",@"单车跟踪", nil];
     }
     return _firstAreaArr;
 }
@@ -248,7 +247,13 @@
         loginRouterType = AWHBPBLoginRouterTypeLoadStatistics;
     }else if ([title isEqualToString:AWHBRLocalizedString(@"新增车辆")]) {
         loginRouterType = AWHBPBLoginRouterTypeNewVehicles;
+    }else if ([title isEqualToString:AWHBRLocalizedString(@"单车跟踪")]) {
+        loginRouterType = AWHBPBLoginRouterTypeBikeTracking;
+    }else if ([title isEqualToString:AWHBRLocalizedString(@"近期油耗")]) {
+        loginRouterType = AWHBPBLoginRouterTypeRecentOilConsumption;
     }
+    
+//    单车跟踪  近期油耗
     return loginRouterType;
 }
 

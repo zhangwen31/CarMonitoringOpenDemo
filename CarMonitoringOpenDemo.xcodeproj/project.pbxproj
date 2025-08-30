@@ -11,6 +11,7 @@
 		2A8EAAC428F8080800CC9255 /* AllFunctionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A8EAAC328F8080800CC9255 /* AllFunctionsViewController.m */; };
 		2A8EAAC728F80A0900CC9255 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A8EAAC528F80A0900CC9255 /* CollectionViewCell.m */; };
 		2A8EAACA28F80A5300CC9255 /* AllHeaderCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A8EAAC828F80A5200CC9255 /* AllHeaderCollectionReusableView.m */; };
+		2AA6B0A22E51C93500DB8D61 /* ChangeLanguage.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2AA6B0A02E51C93500DB8D61 /* ChangeLanguage.strings */; };
 		2AA7F63528FA553F00AB8FC2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AA7F63428FA553F00AB8FC2 /* AudioToolbox.framework */; };
 		2AA7F63728FA554B00AB8FC2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AA7F63628FA554B00AB8FC2 /* AVFoundation.framework */; };
 		2AA7F63928FA555400AB8FC2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AA7F63828FA555400AB8FC2 /* CoreGraphics.framework */; };
@@ -24,18 +25,19 @@
 		2AA7F64928FA55F200AB8FC2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AA7F64828FA55F200AB8FC2 /* QuartzCore.framework */; };
 		2AA7F64B28FA55F900AB8FC2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AA7F64A28FA55F900AB8FC2 /* UIKit.framework */; };
 		2AA7F64D28FA560300AB8FC2 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AA7F64C28FA560300AB8FC2 /* VideoToolbox.framework */; };
+		2AA80DF42E47F8A100C3EA03 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AA7F64028FA55B300AB8FC2 /* libz.tbd */; };
 		2AB1F61728FC46A400D40DCF /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AB1F61628FC46A400D40DCF /* libc++.tbd */; };
 		2AF202B928F6B8AD00B070F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF202B828F6B8AD00B070F4 /* AppDelegate.m */; };
-		2AF202BC28F6B8AD00B070F4 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF202BB28F6B8AD00B070F4 /* SceneDelegate.m */; };
 		2AF202BF28F6B8AD00B070F4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF202BE28F6B8AD00B070F4 /* ViewController.m */; };
 		2AF202C228F6B8AD00B070F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AF202C028F6B8AD00B070F4 /* Main.storyboard */; };
 		2AF202C428F6B8AF00B070F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AF202C328F6B8AF00B070F4 /* Assets.xcassets */; };
 		2AF202C728F6B8AF00B070F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AF202C528F6B8AF00B070F4 /* LaunchScreen.storyboard */; };
 		2AF202CA28F6B8AF00B070F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF202C928F6B8AF00B070F4 /* main.m */; };
-		5646DA62E7139BA940070CD9 /* libPods-CarMonitoringOpenDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B34A69223068574DBF0D9170 /* libPods-CarMonitoringOpenDemo.a */; };
+		3C87B784451C0F211D334CBD /* libPods-CarMonitoringOpenDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70F61EB2D4E00D018637508A /* libPods-CarMonitoringOpenDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A4BE7C32E51D95800973720 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/ChangeLanguage.strings"; sourceTree = "<group>"; };
 		2A71586728FE989A00E2A29F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		2A71586828FE989A00E2A29F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		2A8EAABF28F7F08600CC9255 /* MTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTools.h; sourceTree = "<group>"; };
@@ -46,6 +48,8 @@
 		2A8EAAC628F80A0900CC9255 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
 		2A8EAAC828F80A5200CC9255 /* AllHeaderCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllHeaderCollectionReusableView.m; sourceTree = "<group>"; };
 		2A8EAAC928F80A5300CC9255 /* AllHeaderCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllHeaderCollectionReusableView.h; sourceTree = "<group>"; };
+		2AA6B0A12E51C93500DB8D61 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ChangeLanguage.strings; sourceTree = "<group>"; };
+		2AA77EA62E59ABD300FCAA68 /* CarMonitoringOpenDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CarMonitoringOpenDemo.entitlements; sourceTree = "<group>"; };
 		2AA7F63428FA553F00AB8FC2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		2AA7F63628FA554B00AB8FC2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		2AA7F63828FA555400AB8FC2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,8 +67,6 @@
 		2AF202B428F6B8AD00B070F4 /* CarMonitoringOpenDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarMonitoringOpenDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AF202B728F6B8AD00B070F4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2AF202B828F6B8AD00B070F4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2AF202BA28F6B8AD00B070F4 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		2AF202BB28F6B8AD00B070F4 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		2AF202BD28F6B8AD00B070F4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		2AF202BE28F6B8AD00B070F4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2AF202C128F6B8AD00B070F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -72,9 +74,9 @@
 		2AF202C628F6B8AF00B070F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2AF202C828F6B8AF00B070F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2AF202C928F6B8AF00B070F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		70F61EB2D4E00D018637508A /* libPods-CarMonitoringOpenDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CarMonitoringOpenDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7207A73A31084E75117CD37A /* Pods-CarMonitoringOpenDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarMonitoringOpenDemo.release.xcconfig"; path = "Target Support Files/Pods-CarMonitoringOpenDemo/Pods-CarMonitoringOpenDemo.release.xcconfig"; sourceTree = "<group>"; };
 		ABF2E29CB24EAF064092192C /* Pods-CarMonitoringOpenDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarMonitoringOpenDemo.debug.xcconfig"; path = "Target Support Files/Pods-CarMonitoringOpenDemo/Pods-CarMonitoringOpenDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		B34A69223068574DBF0D9170 /* libPods-CarMonitoringOpenDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CarMonitoringOpenDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AB1F61728FC46A400D40DCF /* libc++.tbd in Frameworks */,
+				2AA80DF42E47F8A100C3EA03 /* libz.tbd in Frameworks */,
 				2AA7F64D28FA560300AB8FC2 /* VideoToolbox.framework in Frameworks */,
 				2AA7F64B28FA55F900AB8FC2 /* UIKit.framework in Frameworks */,
 				2AA7F64928FA55F200AB8FC2 /* QuartzCore.framework in Frameworks */,
@@ -96,7 +99,7 @@
 				2AA7F63928FA555400AB8FC2 /* CoreGraphics.framework in Frameworks */,
 				2AA7F63728FA554B00AB8FC2 /* AVFoundation.framework in Frameworks */,
 				2AA7F63528FA553F00AB8FC2 /* AudioToolbox.framework in Frameworks */,
-				5646DA62E7139BA940070CD9 /* libPods-CarMonitoringOpenDemo.a in Frameworks */,
+				3C87B784451C0F211D334CBD /* libPods-CarMonitoringOpenDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,10 +127,9 @@
 		2AF202B628F6B8AD00B070F4 /* CarMonitoringOpenDemo */ = {
 			isa = PBXGroup;
 			children = (
+				2AA77EA62E59ABD300FCAA68 /* CarMonitoringOpenDemo.entitlements */,
 				2AF202B728F6B8AD00B070F4 /* AppDelegate.h */,
 				2AF202B828F6B8AD00B070F4 /* AppDelegate.m */,
-				2AF202BA28F6B8AD00B070F4 /* SceneDelegate.h */,
-				2AF202BB28F6B8AD00B070F4 /* SceneDelegate.m */,
 				2AF202BD28F6B8AD00B070F4 /* ViewController.h */,
 				2AF202BE28F6B8AD00B070F4 /* ViewController.m */,
 				2A8EAAC228F8080800CC9255 /* AllFunctionsViewController.h */,
@@ -136,6 +138,7 @@
 				2A8EAAC828F80A5200CC9255 /* AllHeaderCollectionReusableView.m */,
 				2A8EAAC628F80A0900CC9255 /* CollectionViewCell.h */,
 				2A8EAAC528F80A0900CC9255 /* CollectionViewCell.m */,
+				2AA6B0A02E51C93500DB8D61 /* ChangeLanguage.strings */,
 				2A8EAABF28F7F08600CC9255 /* MTools.h */,
 				2A8EAAC028F7F08600CC9255 /* MTools.m */,
 				2AF202C028F6B8AD00B070F4 /* Main.storyboard */,
@@ -173,7 +176,7 @@
 				2AA7F63828FA555400AB8FC2 /* CoreGraphics.framework */,
 				2AA7F63628FA554B00AB8FC2 /* AVFoundation.framework */,
 				2AA7F63428FA553F00AB8FC2 /* AudioToolbox.framework */,
-				B34A69223068574DBF0D9170 /* libPods-CarMonitoringOpenDemo.a */,
+				70F61EB2D4E00D018637508A /* libPods-CarMonitoringOpenDemo.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -239,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AF202C728F6B8AF00B070F4 /* LaunchScreen.storyboard in Resources */,
+				2AA6B0A22E51C93500DB8D61 /* ChangeLanguage.strings in Resources */,
 				2AF202C428F6B8AF00B070F4 /* Assets.xcassets in Resources */,
 				2AF202C228F6B8AD00B070F4 /* Main.storyboard in Resources */,
 			);
@@ -297,7 +301,6 @@
 				2AF202BF28F6B8AD00B070F4 /* ViewController.m in Sources */,
 				2AF202B928F6B8AD00B070F4 /* AppDelegate.m in Sources */,
 				2AF202CA28F6B8AF00B070F4 /* main.m in Sources */,
-				2AF202BC28F6B8AD00B070F4 /* SceneDelegate.m in Sources */,
 				2A8EAAC428F8080800CC9255 /* AllFunctionsViewController.m in Sources */,
 				2A8EAAC728F80A0900CC9255 /* CollectionViewCell.m in Sources */,
 				2A8EAAC128F7F08600CC9255 /* MTools.m in Sources */,
@@ -307,6 +310,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		2AA6B0A02E51C93500DB8D61 /* ChangeLanguage.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AA6B0A12E51C93500DB8D61 /* en */,
+				2A4BE7C32E51D95800973720 /* zh-Hans */,
+			);
+			name = ChangeLanguage.strings;
+			sourceTree = "<group>";
+		};
 		2AF202C028F6B8AD00B070F4 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -446,6 +458,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CarMonitoringOpenDemo/CarMonitoringOpenDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = T96256Q3UH;
@@ -456,12 +469,14 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CarMonitoringOpenDemo/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "云查车SDK";
-				INFOPLIST_KEY_NSAppleMusicUsageDescription = "App需要您的同意,才能访问媒体资料库";
-				INFOPLIST_KEY_NSCameraUsageDescription = "App需要您的同意,才能使用相机拍照上传图像和扫描二维码";
-				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "App需要您的同意,使用位置以显示车辆位置";
-				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "App需要您的同意,使用位置以显示车辆位置";
-				INFOPLIST_KEY_NSMicrophoneUsageDescription = "APP需要您同意,才能访问语音功能";
-				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "App需要您的同意,才能访问相册上传图像";
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "使用相册上传图片";
+				INFOPLIST_KEY_NSCameraUsageDescription = "使用相机识别二维码";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "在地图上标记车辆位置";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "在地图上标记车辆位置";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "在地图上标记车辆位置";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "使用语音与驾驶员交谈";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "将视频保存到本地相册";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "使用图像补充信息";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -486,6 +501,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CarMonitoringOpenDemo/CarMonitoringOpenDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = T96256Q3UH;
@@ -496,12 +512,14 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CarMonitoringOpenDemo/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "云查车SDK";
-				INFOPLIST_KEY_NSAppleMusicUsageDescription = "App需要您的同意,才能访问媒体资料库";
-				INFOPLIST_KEY_NSCameraUsageDescription = "App需要您的同意,才能使用相机拍照上传图像和扫描二维码";
-				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "App需要您的同意,使用位置以显示车辆位置";
-				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "App需要您的同意,使用位置以显示车辆位置";
-				INFOPLIST_KEY_NSMicrophoneUsageDescription = "APP需要您同意,才能访问语音功能";
-				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "App需要您的同意,才能访问相册上传图像";
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "使用相册上传图片";
+				INFOPLIST_KEY_NSCameraUsageDescription = "使用相机识别二维码";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "在地图上标记车辆位置";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "在地图上标记车辆位置";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "在地图上标记车辆位置";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "使用语音与驾驶员交谈";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "将视频保存到本地相册";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "使用图像补充信息";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
