@@ -24,7 +24,7 @@ PODS:
     - AMapFoundation (~> 1.5)
   - AMapSearch (6.9.0):
     - AMapFoundation (~> 1.4)
-  - AWHBBasicBusiness (1.0.5):
+  - AWHBBasicBusiness (1.0.6):
     - AFNetworking
     - AWHBNetworkRequest
     - AWHBoneResources
@@ -91,7 +91,7 @@ PODS:
     - TZImagePickerController/Basic
     - YYImage
   - AWHConnectSocket (1.0.1)
-  - AWHMonitoringModule (1.0.5):
+  - AWHMonitoringModule (1.0.6):
     - AFNetworking
     - AMap3DMap (= 6.9.0)
     - AMapLocation (= 2.6.2)
@@ -235,9 +235,6 @@ PODS:
   - FQPhotoAlbum (1.0)
   - IJKMediaFramework (0.1.5)
   - IQKeyboardManager (6.5.19)
-  - LookinServer (1.2.8):
-    - LookinServer/Core (= 1.2.8)
-  - LookinServer/Core (1.2.8)
   - Masonry (1.1.0)
   - MBProgressHUD (1.1.0)
   - MJExtension (3.4.1)
@@ -279,7 +276,7 @@ DEPENDENCIES:
   - AMapLocation (= 2.6.2)
   - AMapNavi (= 6.9.1)
   - AMapSearch (= 6.9.0)
-  - AWHBBasicBusiness (= 1.0.5)
+  - AWHBBasicBusiness (= 1.0.6)
   - AWHBGaudeMapBus (= 1.0.6)
   - AWHBNetworkRequest (= 1.0.4)
   - AWHBoneResources (= 1.0.3)
@@ -287,7 +284,7 @@ DEPENDENCIES:
   - AWHBoneRuntime (= 1.0.6)
   - AWHBPublicBusiness (= 1.0.11)
   - AWHConnectSocket (= 1.0.1)
-  - AWHMonitoringModule (= 1.0.5)
+  - AWHMonitoringModule (= 1.0.6)
   - AWHOilSwift (= 1.0.9)
   - AWHReportModule (= 1.0.5)
   - AWHSensorStatistics (= 1.0.3)
@@ -300,7 +297,6 @@ DEPENDENCIES:
   - FQPhotoAlbum (= 1.0)
   - IJKMediaFramework
   - IQKeyboardManager
-  - LookinServer
   - Masonry (= 1.1.0)
   - MBProgressHUD (= 1.1.0)
   - MJExtension (= 3.4.1)
@@ -347,7 +343,6 @@ SPEC REPOS:
     - FQPhotoAlbum
     - IJKMediaFramework
     - IQKeyboardManager
-    - LookinServer
     - Masonry
     - MBProgressHUD
     - MJExtension
@@ -369,7 +364,7 @@ SPEC CHECKSUMS:
   AMapLocation: 89a7e4eb6040d32ba73c77a4966ecc66e46aa7c3
   AMapNavi: 7e7c6ab0b9ad45ddba19297901d63236ff4be710
   AMapSearch: af02822537e55b85a4752e9df5c19e4b9da82031
-  AWHBBasicBusiness: 1c5d41797e7601acf4d00f6933392403ef0d4b07
+  AWHBBasicBusiness: c17d9ddffe043c6f4ba7b2755e7c2cb955c01fae
   AWHBGaudeMapBus: 00e7bebcef4ce786c7440c089feecdcfaa4bb220
   AWHBNetworkRequest: e5c8460b2f8cc905b7a11f06eee4749fe2fe5c2a
   AWHBoneResources: 8e455bb99b0b79c5f96339382b19ffa36e51124b
@@ -377,7 +372,7 @@ SPEC CHECKSUMS:
   AWHBoneRuntime: 8d72c8c29f281dcfb1b7318de141ae65f1e3015d
   AWHBPublicBusiness: 9283f1298016db719ca442aeadb10db02581b253
   AWHConnectSocket: e577f2952151cd4a326663a2dc90aa43b58892ab
-  AWHMonitoringModule: ac8f1018443e02336e10680d287ebcd0acf69303
+  AWHMonitoringModule: 90aaef293a2416a4a615e6c42a4bfb9f28b64a19
   AWHOilSwift: d6e37093c747a2c27030e0a5258ffa29acbdba6d
   AWHReportModule: 09e0acddc89805726842aa310c5691e995fad8f1
   AWHSensorStatistics: 7f6f1eec02726f363463003c98d7ea4f8f200d83
@@ -390,7 +385,6 @@ SPEC CHECKSUMS:
   FQPhotoAlbum: 14d41f5feeddb605be63756334be066cda4840b3
   IJKMediaFramework: f1119f6324c96bc4654f3045a5beaa95ba0596c0
   IQKeyboardManager: c8665b3396bd0b79402b4c573eac345a31c7d485
-  LookinServer: 1b2b61c6402ae29fa22182d48f5cd067b4e99e80
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
   MJExtension: 21c5f6f8c4d5d8844b7ae8fbae08fed0b501f961
@@ -405,6 +399,6 @@ SPEC CHECKSUMS:
   YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: 10a8bf52a8b45439115a8ec1f57a68f7cafcba8c
+PODFILE CHECKSUM: 2ccf314b4fd9de7a85c86cfafbfe9a6a6c1728b2
 
 COCOAPODS: 1.16.2

@@ -36,7 +36,7 @@ target 'CarMonitoringOpenDemo' do
   #网络封装请求业务库
   pod 'AWHBNetworkRequest', '1.0.4'
   #基础业务库，用于存放基础模型和业务相关的
-  pod 'AWHBBasicBusiness', '1.0.5'
+  pod 'AWHBBasicBusiness', '1.0.6'
   #公共业务库，用于公共业务功能展示
   pod 'AWHBPublicBusiness', '1.0.11'
 #
@@ -62,7 +62,7 @@ target 'CarMonitoringOpenDemo' do
   #实时视频
   pod 'AWHVideoPlayer', '1.0.4'
 #  #监控模块
-  pod 'AWHMonitoringModule', '1.0.5'
+  pod 'AWHMonitoringModule', '1.0.6'
 #  #设置配置
   pod 'AWHSettingConfig', '1.0.1'
 #

@@ -61,7 +61,7 @@
     [self.view addSubview:userBut];
     [userBut mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.mas_equalTo(60);
-        make.left.equalTo(self.view.mas_left).offset(24);
+        make.centerX.equalTo(self.view.mas_centerX);
         make.width.mas_equalTo(kScreenW/2 - 24);
     }];
     
